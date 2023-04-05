@@ -34,10 +34,21 @@ public class RaicesServicios {
     
     public boolean tieneRaices (Raices r1){
         double raices = getDiscriminate(r1);
-        if (raices >= 0){
+        if (raices > 0){
             return true;            
         } else {
             return false;
         }
     }
+    
+    public boolean tieneRaiz (Raices r1){
+        double raices = getDiscriminate(r1);
+        if (raices == 0){
+            return true;            
+        } else {
+            return false;
+        }
+    }
+    
+    
 }
