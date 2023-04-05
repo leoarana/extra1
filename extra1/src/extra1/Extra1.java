@@ -5,6 +5,8 @@
  */
 package extra1;
 
+import entidades.Raices;
+
 /**
  *
  * @author leandro
@@ -15,7 +17,8 @@ public class Extra1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // hola
+        Raices r1 = new Raices();
+        
     }
     
 }
