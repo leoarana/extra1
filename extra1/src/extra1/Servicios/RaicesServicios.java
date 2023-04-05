@@ -31,4 +31,13 @@ public class RaicesServicios {
     public double getDiscriminate(Raices r1){
         return Math.pow(r1.getB(), 2)-4*r1.getA()*r1.getC();
     }
+    
+    public boolean tieneRaices (Raices r1){
+        double raices = getDiscriminate(r1);
+        if (raices >= 0){
+            return true;            
+        } else {
+            return false;
+        }
+    }
 }
